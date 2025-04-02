@@ -403,5 +403,150 @@ const quotes = [
         text: "紙上得來終覺淺，絕知此事要躬行。",
         author: "陸游",
         fakeAuthors: ["杜甫", "蘇軾"]
+    },
+    {
+        text: "千里之行，始於足下。",
+        author: "老子",
+        fakeAuthors: ["孔子", "墨子"]
+    },
+    {
+        text: "知恥近乎勇。",
+        author: "中庸",
+        fakeAuthors: ["論語", "大學"]
+    },
+    {
+        text: "不經一番寒徹骨，怎得梅花撲鼻香。",
+        author: "黃檗禪師",
+        fakeAuthors: ["王安石", "白居易"]
+    },
+    {
+        text: "以直報怨，以德報德。",
+        author: "孔子",
+        fakeAuthors: ["孟子", "老子"]
+    },
+    {
+        text: "歲寒，然後知松柏之後凋也。",
+        author: "論語",
+        fakeAuthors: ["孟子", "莊子"]
+    },
+    {
+        text: "物以類聚，人以群分。",
+        author: "易經",
+        fakeAuthors: ["論語", "韓非子"]
+    },
+    {
+        text: "得道者多助，失道者寡助。",
+        author: "孟子",
+        fakeAuthors: ["荀子", "老子"]
+    },
+    {
+        text: "大丈夫能屈能伸。",
+        author: "《左傳》",
+        fakeAuthors: ["孟子", "韓非子"]
+    },
+    {
+        text: "祸兮福之所倚，福兮祸之所伏。",
+        author: "老子",
+        fakeAuthors: ["莊子", "列子"]
+    },
+    {
+        text: "玉不琢，不成器；人不學，不知道。",
+        author: "禮記",
+        fakeAuthors: ["論語", "荀子"]
+    },
+    {
+        text: "莫愁前路無知己，天下誰人不識君。",
+        author: "高適",
+        fakeAuthors: ["杜甫", "王昌齡"]
+    },
+    {
+        text: "學然後知不足，教然後知困。",
+        author: "禮記",
+        fakeAuthors: ["論語", "荀子"]
+    },
+    {
+        text: "志士不飲盜泉之水，廉者不受嗟來之食。",
+        author: "後漢書",
+        fakeAuthors: ["論語", "韓非子"]
+    },
+    {
+        text: "才者，德之資也；德者，才之帥也。",
+        author: "司馬光",
+        fakeAuthors: ["范仲淹", "王陽明"]
+    },
+    {
+        text: "忍一時風平浪靜，退一步海闊天空。",
+        author: "林則徐",
+        fakeAuthors: ["曾國藩", "鄭板橋"]
+    },
+    {
+        text: "滴水穿石，非一日之功。",
+        author: "羅大經",
+        fakeAuthors: ["韓愈", "朱熹"]
+    },
+    {
+        text: "知人者智，自知者明。",
+        author: "老子",
+        fakeAuthors: ["莊子", "孔子"]
+    },
+    {
+        text: "心有靈犀一點通。",
+        author: "李商隱",
+        fakeAuthors: ["杜牧", "白居易"]
+    },
+    {
+        text: "人生若只如初見，何事秋風悲畫扇。",
+        author: "納蘭性德",
+        fakeAuthors: ["李清照", "杜牧"]
+    },
+    {
+        text: "落霞與孤鶩齊飛，秋水共長天一色。",
+        author: "王勃",
+        fakeAuthors: ["李白", "杜甫"]
+    },
+    {
+        text: "三軍可奪帥也，匹夫不可奪志也。",
+        author: "論語",
+        fakeAuthors: ["孟子", "韓非子"]
+    },
+    {
+        text: "寧為玉碎，不為瓦全。",
+        author: "《北齊書》",
+        fakeAuthors: ["司馬光", "范仲淹"]
+    },
+    {
+        text: "人生如逆旅，我亦是行人。",
+        author: "蘇軾",
+        fakeAuthors: ["李白", "杜甫"]
+    },
+    {
+        text: "書山有路勤為徑，學海無涯苦作舟。",
+        author: "韓愈",
+        fakeAuthors: ["朱熹", "范仲淹"]
+    },
+    {
+        text: "黑髮不知勤學早，白首方悔讀書遲。",
+        author: "顏真卿",
+        fakeAuthors: ["柳宗元", "杜甫"]
+    },
+    {
+        text: "桃李不言，下自成蹊。",
+        author: "《史記》",
+        fakeAuthors: ["韓非子", "孔子"]
+    },
+    {
+        text: "君子藏器於身，待時而動。",
+        author: "《周易》",
+        fakeAuthors: ["論語", "荀子"]
+    },
+    {
+        text: "志當存高遠。",
+        author: "諸葛亮",
+        fakeAuthors: ["司馬遷", "范仲淹"]
+    },
+    {
+        text: "生亦何歡，死亦何苦。",
+        author: "李白",
+        fakeAuthors: ["杜甫", "王之渙"]
     }
 ];
