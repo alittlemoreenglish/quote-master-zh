@@ -203,5 +203,60 @@ const quotes = [
         text: "不鳴則已，一鳴驚人。",
         author: "司馬遷",
         fakeAuthors: ["班固", "司馬光"]
-    }
+    },
+  {
+    text: "知恥近乎勇。",
+    author: "中庸",
+    fakeAuthors: ["論語", "大學"],
+  },
+  {
+    text: "鍥而捨之，朽木不折；鍥而不捨，金石可鏤。",
+    author: "荀子",
+    fakeAuthors: ["孟子", "韓非子"],
+  },
+  {
+    text: "有則改之，無則加勉。",
+    author: "朱熹",
+    fakeAuthors: ["王陽明", "程頤"],
+  },
+  {
+    text: "臨淵羨魚，不如退而結網。",
+    author: "《漢書·董仲舒傳》",
+    fakeAuthors: ["司馬遷", "班固"],
+  },
+  {
+    text: "它山之石，可以攻玉。",
+    author: "《詩經·小雅·鶴鳴》",
+    fakeAuthors: ["論語", "孟子"],
+  },
+  {
+    text: "士別三日，刮目相待。",
+    author: "《資治通鑑》",
+    fakeAuthors: ["史記", "漢書"],
+  },
+  {
+    text: "人無遠慮，必有近憂。",
+    author: "《論語·衛靈公》",
+    fakeAuthors: ["孟子", "大學"],
+  },
+  {
+    text: "金玉其外，敗絮其中。",
+    author: "劉基",
+    fakeAuthors: ["宋濂", "歸有光"],
+  },
+    {
+    text: "當仁不讓於師。",
+    author: "論語",
+    fakeAuthors: ["孟子", "中庸"],
+  },
+    {
+    text: "青，取之於藍，而青於藍；冰，水為之，而寒於水。",
+    author: "荀子",
+    fakeAuthors: ["韓非子", "孟子"],
+    },
+    {
+    text: "長江後浪推前浪，浮事新人換舊人",
+    author: "劉斧",
+    fakeAuthors: ["李清照", "李昴英"],
+  }
 ];
