@@ -258,5 +258,150 @@ const quotes = [
     text: "長江後浪推前浪，浮事新人換舊人",
     author: "劉斧",
     fakeAuthors: ["李清照", "李昴英"],
-  }
+    },
+    {
+        text: "不飛則已，一飛沖天；不鳴則已，一鳴驚人。",
+        author: "司馬遷",
+        fakeAuthors: ["韓非子", "班固"]
+    },
+    {
+        text: "海內存知己，天涯若比鄰。",
+        author: "王勃",
+        fakeAuthors: ["李白", "杜甫"]
+    },
+    {
+        text: "會當凌絕頂，一覽眾山小。",
+        author: "杜甫",
+        fakeAuthors: ["李白", "白居易"]
+    },
+    {
+        text: "位卑未敢忘憂國。",
+        author: "陸游",
+        fakeAuthors: ["范仲淹", "辛棄疾"]
+    },
+    {
+        text: "博觀而約取，厚積而薄發。",
+        author: "蘇軾",
+        fakeAuthors: ["歐陽修", "王安石"]
+    },
+    {
+        text: "大丈夫生於天地間，不識其主而事之，是無志也。",
+        author: "諸葛亮",
+        fakeAuthors: ["劉邦", "韓信"]
+    },
+    {
+        text: "風蕭蕭兮易水寒，壯士一去兮不復還。",
+        author: "荊軻",
+        fakeAuthors: ["項羽", "司馬遷"]
+    },
+    {
+        text: "人生如逆旅，我亦是行人。",
+        author: "蘇軾",
+        fakeAuthors: ["杜牧", "王維"]
+    },
+    {
+        text: "人生如夢，一尊還酹江月。",
+        author: "蘇軾",
+        fakeAuthors: ["辛棄疾", "李清照"]
+    },
+    {
+        text: "小不忍則亂大謀。",
+        author: "孔子",
+        fakeAuthors: ["孟子", "莊子"]
+    },
+    {
+        text: "精誠所至，金石為開。",
+        author: "《後漢書》",
+        fakeAuthors: ["史記", "左傳"]
+    },
+    {
+        text: "君子坦蕩蕩，小人長戚戚。",
+        author: "論語",
+        fakeAuthors: ["孟子", "韓非子"]
+    },
+    {
+        text: "人固有一死，或重於泰山，或輕於鴻毛。",
+        author: "司馬遷",
+        fakeAuthors: ["班固", "韓非子"]
+    },
+    {
+        text: "尺有所短，寸有所長。",
+        author: "屈原",
+        fakeAuthors: ["莊子", "老子"]
+    },
+    {
+        text: "千磨萬擊還堅勁，任爾東西南北風。",
+        author: "鄭燮",
+        fakeAuthors: ["文天祥", "林則徐"]
+    },
+    {
+        text: "位卑未敢忘憂國。",
+        author: "陸游",
+        fakeAuthors: ["辛棄疾", "范仲淹"]
+    },
+    {
+        text: "寧為玉碎，不為瓦全。",
+        author: "李白",
+        fakeAuthors: ["杜甫", "蘇軾"]
+    },
+    {
+        text: "不積跬步，無以至千里；不積小流，無以成江海。",
+        author: "荀子",
+        fakeAuthors: ["韓非子", "孟子"]
+    },
+    {
+        text: "生當作人傑，死亦為鬼雄。",
+        author: "李清照",
+        fakeAuthors: ["杜甫", "王維"]
+    },
+    {
+        text: "先天下之憂而憂，後天下之樂而樂。",
+        author: "范仲淹",
+        fakeAuthors: ["歐陽修", "王安石"]
+    },
+    {
+        text: "千軍易得，一將難求。",
+        author: "《三國志》",
+        fakeAuthors: ["孫武", "韓信"]
+    },
+    {
+        text: "燕雀安知鴻鵠之志哉？",
+        author: "陳勝",
+        fakeAuthors: ["項羽", "韓信"]
+    },
+    {
+        text: "天將降大任於斯人也，必先苦其心志，勞其筋骨。",
+        author: "孟子",
+        fakeAuthors: ["荀子", "韓非子"]
+    },
+    {
+        text: "橫眉冷對千夫指，俯首甘為孺子牛。",
+        author: "魯迅",
+        fakeAuthors: ["胡適", "李大釗"]
+    },
+    {
+        text: "三軍可奪帥也，匹夫不可奪志也。",
+        author: "孔子",
+        fakeAuthors: ["孟子", "韓非子"]
+    },
+    {
+        text: "言之無文，行而不遠。",
+        author: "孔子",
+        fakeAuthors: ["孟子", "莊子"]
+    },
+    {
+        text: "不經一番寒徹骨，怎得梅花撲鼻香。",
+        author: "黃蘗禪師",
+        fakeAuthors: ["王安石", "杜牧"]
+    },
+    {
+        text: "生如夏花之絢爛，死如秋葉之靜美。",
+        author: "泰戈爾",
+        fakeAuthors: ["魯迅", "冰心"]
+    },
+    {
+        text: "紙上得來終覺淺，絕知此事要躬行。",
+        author: "陸游",
+        fakeAuthors: ["杜甫", "蘇軾"]
+    }
 ];
