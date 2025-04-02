@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>名言達人挑戰</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div id="home-screen">
+            <h1>名言達人挑戰</h1>
+            <div class="instructions">
+                <h2>遊戲規則</h2>
+                <ul>
+                    <li>你有2分鐘的時間來辨識儘可能多的名言</li>
+                    <li>對於每一句名言，從3個選項中選出正確的作者</li>
+                    <li>答對可獲得積分：</li>
+                    <ul class="scoring-details">
+                        <li>基本分數：每答對一題得100分</li>
+                        <li>時間獎勵：每剩餘一秒額外獲得1分</li>
+                    </ul>
+                    <li>回答越快，得分越高！</li>
+                </ul>
+            </div>
+            <button id="start-btn" class="pulse-btn">開始挑戰！</button>
+        </div>
+
+        <div id="game-screen" class="hidden">
+            <div class="stats">
+                <div class="timer">時間：<span id="time">2:00</span></div>
+                <div class="score">分數：<span id="score">0</span></div>
+            </div>
+            
+            <div class="quote-container">
+                <div class="quote-text"></div>
+                <div class="options"></div>
+            </div>
+        </div>
+
+        <div id="end-screen" class="hidden">
+            <h2>挑戰完成！</h2>
+            <div class="final-stats">
+                <p>最終分數：<span id="final-score">0</span></p>
+                <p>回答題數：<span id="quotes-answered">0</span></p>
+            </div>
+            <div id="achievement-message"></div>
+            <button id="play-again" class="pulse-btn">再玩一次</button>
+        </div>
+    </div>
+    <footer class="footer">
+        <a href="https://sites.google.com/view/aaronshi" target="_blank" class="footer-link">
+            <img src="https://alittlemoreenglish.weebly.com/uploads/2/6/6/3/26638990/favicon-32x32_orig.png" alt="Icon" width="16" height="16">
+            Released in April 2025. Created by Aaron Shi.
+        </a>
+    </footer>
+    <script src="quotes.js"></script>
+    <script src="game.js"></script>
+</body>
+</html>
