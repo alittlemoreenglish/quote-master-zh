@@ -386,13 +386,13 @@ const quotes = [
     },
     {
         text: "人不可有傲氣，但不可無傲骨。",
-        author: "魯迅",
-        fakeAuthors: ["李白", "蘇軾"]
+        author: "徐悲鴻",
+        fakeAuthors: ["魯迅", "胡適"]
     },
     {
         text: "天行健，君子以自強不息。",
-        author: "周易",
-        fakeAuthors: ["論語", "大學"]
+        author: "《易經》",
+        fakeAuthors: ["《論語》", "《封神榜》"]
     },
     {
         text: "千里之行，始於足下。",
@@ -446,18 +446,13 @@ const quotes = [
     },
     {
         text: "外圓內方，厚德載物。",
-        author: "周易",
-        fakeAuthors: ["論語", "大學"]
+        author: "《易經》",
+        fakeAuthors: ["《論語》", "《大學》"]
     },
     {
         text: "不以物喜，不以己悲。",
-        author: "範仲淹",
+        author: "范仲淹",
         fakeAuthors: ["蘇軾", "王安石"]
-    },
-    {
-        text: "學會挫折，壯志不改。",
-        author: "李登輝",
-        fakeAuthors: ["蔡英文", "陳水扁"]
     },
     {
         text: "寧靜致遠，淡泊明志。",
@@ -466,12 +461,17 @@ const quotes = [
     },
     {
         text: "勿以惡小而為之，勿以善小而不為。",
-        author: "劉備",
-        fakeAuthors: ["諸葛亮", "關羽"]
+        author: "羅貫中",
+        fakeAuthors: ["馮夢龍", "吳承恩"]
     },
     {
         text: "讀書破萬卷，下筆如有神。",
         author: "杜甫",
+        fakeAuthors: ["李白", "蘇軾"]
+    },
+    {
+        text: "是非成敗轉頭空，青山依舊在，幾度夕陽紅。",
+        author: "楊慎",
         fakeAuthors: ["李白", "蘇軾"]
     },
     {
@@ -491,8 +491,8 @@ const quotes = [
     },
     {
         text: "哀莫大於心死，而身死次之。",
-        author: "王陽明",
-        fakeAuthors: ["朱熹", "顧炎武"]
+        author: "莊子",
+        fakeAuthors: ["孔子", "荀子"]
     },
     {
         text: "業精於勤，荒於嬉；行成於思，毀於隨。",
@@ -506,7 +506,7 @@ const quotes = [
     },
     {
         text: "路遙知馬力，日久見人心。",
-        author: "元·錢思復",
+        author: "陳元靚",
         fakeAuthors: ["諸葛亮", "曾國藩"]
     },
     {
@@ -521,23 +521,23 @@ const quotes = [
     },
     {
         text: "居廟堂之高則憂其民，處江湖之遠則憂其君。",
-        author: "範仲淹",
+        author: "范仲淹",
         fakeAuthors: ["歐陽修", "蘇軾"]
     },
     {
         text: "先天下之憂而憂，後天下之樂而樂。",
-        author: "範仲淹",
+        author: "范仲淹",
         fakeAuthors: ["司馬光", "王安石"]
     },
     {
-        text: "以銳氣為胆，以識見為膽，以練達為膽，以精神為膽。",
-        author: "蔣中正",
-        fakeAuthors: ["孫中山", "毛澤東"]
+        text: "統一的方法，有輿論和武力兩種。",
+        author: "孫中山",
+        fakeAuthors: ["蔣中正", "毛澤東"]
     },
     {
-        text: "寧為太平犬，不做亂世人。",
-        author: "蘇軾",
-        fakeAuthors: ["李白", "杜甫"]
+        text: "寧為太平犬，莫作亂離人。",
+        author: "《幽閨記》",
+        fakeAuthors: ["《荊釵記》", "《拜月亭》"]
     },
     {
         text: "風聲雨聲讀書聲，聲聲入耳；家事國事天下事，事事關心。",
@@ -581,23 +581,23 @@ const quotes = [
   },
   {
     text: "臨淵羨魚，不如退而結網。",
-    author: "《漢書·董仲舒傳》",
-    fakeAuthors: ["司馬遷", "班固"],
+    author: "《漢書》",
+    fakeAuthors: ["《資治通鑑》", "《史記》"],
   },
   {
     text: "它山之石，可以攻玉。",
-    author: "《詩經·小雅·鶴鳴》",
-    fakeAuthors: ["論語", "孟子"],
+    author: "《詩經》",
+    fakeAuthors: ["《孝經》", "《周易》 "],
   },
   {
     text: "士別三日，刮目相待。",
     author: "《資治通鑑》",
-    fakeAuthors: ["史記", "漢書"],
+    fakeAuthors: ["《漢書》", "《國語》"],
   },
   {
     text: "人無遠慮，必有近憂。",
-    author: "《論語·衛靈公》",
-    fakeAuthors: ["孟子", "大學"],
+    author: "《論語》",
+    fakeAuthors: ["《通鑑》", "《楚辭》"],
   },
   {
     text: "金玉其外，敗絮其中。",
@@ -672,7 +672,7 @@ const quotes = [
     {
         text: "精誠所至，金石為開。",
         author: "《後漢書》",
-        fakeAuthors: ["史記", "左傳"]
+        fakeAuthors: ["《史記》", "《左傳》"]
     },
     {
         text: "君子坦蕩蕩，小人長戚戚。",
@@ -721,8 +721,8 @@ const quotes = [
     },
     {
         text: "千軍易得，一將難求。",
-        author: "《三國志》",
-        fakeAuthors: ["孫武", "韓信"]
+        author: "《東周列國志》",
+        fakeAuthors: ["《九國志》", "《華陽國志》"]
     },
     {
         text: "燕雀安知鴻鵠之志哉？",
@@ -786,13 +786,13 @@ const quotes = [
     },
     {
         text: "歲寒，然後知松柏之後凋也。",
-        author: "論語",
-        fakeAuthors: ["孟子", "莊子"]
+        author: "《論語》",
+        fakeAuthors: ["《上堂開示頌》", "《醉吟先生傳》"]
     },
     {
         text: "物以類聚，人以群分。",
-        author: "易經",
-        fakeAuthors: ["論語", "韓非子"]
+        author: "《易經》",
+        fakeAuthors: ["《論語》", "《前漢書》"]
     },
     {
         text: "得道者多助，失道者寡助。",
@@ -811,8 +811,8 @@ const quotes = [
     },
     {
         text: "玉不琢，不成器；人不學，不知道。",
-        author: "禮記",
-        fakeAuthors: ["論語", "荀子"]
+        author: "《禮記》",
+        fakeAuthors: ["《論語》", "《漢志》"]
     },
     {
         text: "莫愁前路無知己，天下誰人不識君。",
@@ -821,23 +821,18 @@ const quotes = [
     },
     {
         text: "學然後知不足，教然後知困。",
-        author: "禮記",
-        fakeAuthors: ["論語", "荀子"]
+        author: "《禮記》",
+        fakeAuthors: ["《論語》", "《荀子》"]
     },
     {
         text: "志士不飲盜泉之水，廉者不受嗟來之食。",
-        author: "後漢書",
-        fakeAuthors: ["論語", "韓非子"]
+        author: "《後漢書》",
+        fakeAuthors: ["《論語》", "《韓非子》"]
     },
     {
         text: "才者，德之資也；德者，才之帥也。",
         author: "司馬光",
         fakeAuthors: ["范仲淹", "王陽明"]
-    },
-    {
-        text: "忍一時風平浪靜，退一步海闊天空。",
-        author: "林則徐",
-        fakeAuthors: ["曾國藩", "鄭板橋"]
     },
     {
         text: "滴水穿石，非一日之功。",
@@ -850,7 +845,7 @@ const quotes = [
         fakeAuthors: ["莊子", "孔子"]
     },
     {
-        text: "心有靈犀一點通。",
+        text: "身無綵鳳雙飛翼，心有靈犀一點通。",
         author: "李商隱",
         fakeAuthors: ["杜牧", "白居易"]
     },
@@ -866,12 +861,12 @@ const quotes = [
     },
     {
         text: "三軍可奪帥也，匹夫不可奪志也。",
-        author: "論語",
-        fakeAuthors: ["孟子", "韓非子"]
+        author: "《論語》",
+        fakeAuthors: ["《中庸》", "《大學》"]
     },
     {
         text: "寧為玉碎，不為瓦全。",
-        author: "《北齊書》",
+        author: "李百藥",
         fakeAuthors: ["司馬光", "范仲淹"]
     },
     {
@@ -892,12 +887,12 @@ const quotes = [
     {
         text: "桃李不言，下自成蹊。",
         author: "《史記》",
-        fakeAuthors: ["韓非子", "孔子"]
+        fakeAuthors: ["《續湘山野錄》", "《漢書》"]
     },
     {
         text: "君子藏器於身，待時而動。",
-        author: "《周易》",
-        fakeAuthors: ["論語", "荀子"]
+        author: "《易經》",
+        fakeAuthors: ["《禮記》", "《尚書》"]
     },
     {
         text: "志當存高遠。",
