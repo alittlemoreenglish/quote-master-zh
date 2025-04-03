@@ -6,7 +6,7 @@ const quotes = [
     },
     {
         "text": "寧為雞口，無為牛後。",
-        "author": "《戰國策》 ,
+        "author": "《戰國策》",
         "fakeAuthors": ["《史記》", "《春秋》"]
     },
     {
