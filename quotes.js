@@ -1,5 +1,15 @@
 const quotes = [
     {
+        text: "沒吃過豬肉，也見過豬跑。",
+        author: "曹雪芹",
+        fakeAuthors: ["錢謙益", "吳敬梓"]
+    },
+    {
+        text: "清明時節雨紛紛，路上行人欲斷魂。",
+        author: "杜牧",
+        fakeAuthors: ["杜佑", "杜甫"]
+    },
+    {
         text: "己所不欲，勿施於人。",
         author: "孔子",
         fakeAuthors: ["孟子", "荀子"]
