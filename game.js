@@ -127,14 +127,14 @@ function getAchievementMessage() {
     if (score >= 1500) {
         return `
 🏆 傳奇名言大師！ 🏆\n
-你的智慧無與倫比！
+你擁有無與倫比的智慧！
 分數：${score} | 準確率：${accuracy.toFixed(1)}%
-你已達到真正的啟蒙境界！
+你已達到真正的無人的境界！
         `;
     }
     if (score >= 1000) {
         return `
-✨ 名言專家非凡！ ✨
+✨ 精英名言達人！ ✨
 你的知識真是令人讚嘆！
 分數：${score} | 準確率：${accuracy.toFixed(1)}%
 你已躋身精英名言達人的行列！
@@ -142,8 +142,8 @@ function getAchievementMessage() {
     }
     if (score >= 500) {
         return `
-📚 卓越的名言愛好者！ 📚
-你正在取得絕佳的進步！
+📚 厲害的名言愛好者！ 📚
+你正一步一步的往上爬！
 分數：${score} | 準確率：${accuracy.toFixed(1)}%
 繼續保持這驚人的表現！
         `;
@@ -158,7 +158,7 @@ function getAchievementMessage() {
     }
     return `
 🎯 勇敢的挑戰者！ 🎯
-每位大師都曾是初學者！
+每位大師都曾是位新手！
 分數：${score} | 準確率：${accuracy.toFixed(1)}%
 繼續學習，再接再厲！
     `;
