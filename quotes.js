@@ -1,5 +1,20 @@
 const quotes = [
     {
+        "text": "不慕利，好讀書，不求甚解，每有會意，欣然忘食。",
+        "author": "陶潛",
+        "fakeAuthors": ["陶侃", "陶逸"]
+    },
+    {
+        "text": "寧為雞口，無為牛後。",
+        "author": "《戰國策》 ,
+        "fakeAuthors": ["《史記》", "《春秋》"]
+    },
+    {
+        "text": "念天地之悠悠，獨愴然而涕下。",
+        "author": "陳子昂",
+        "fakeAuthors": ["文天祥", "武后"]
+    },
+    {
         "text": "山重水複疑無路，柳暗花明又一村。",
         "author": "陸游",
         "fakeAuthors": ["楊萬里", "范成大"]
@@ -166,8 +181,8 @@ const quotes = [
     },
     {
         "text": "任憑弱水三千，我只取一瓢飲。",
-        "author": "無名氏",
-        "fakeAuthors": ["曹雪芹", "祝枝山"]
+        "author": "曹雪芹",
+        "fakeAuthors": ["魯迅", "祝枝山"]
     },
     {
         "text": "世人笑我太瘋癲，我笑他人看不穿。",
@@ -278,11 +293,6 @@ const quotes = [
         "text": "呼兒將出換美酒，與爾同銷萬古愁。",
         "author": "李白",
         "fakeAuthors": ["杜甫", "蘇軾"]
-    },
-    {
-        "text": "天生我材必有用，千金散盡還復來。",
-        "author": "李白",
-        "fakeAuthors": ["杜甫", "白居易"]
     },
     {
         "text": "岑夫子，丹丘生，將進酒，杯莫停。",
@@ -435,11 +445,6 @@ const quotes = [
         fakeAuthors: ["岳飛", "辛棄疾"]
     },
     {
-        text: "山重水複疑無路，柳暗花明又一村。",
-        author: "陸游",
-        fakeAuthors: ["蘇軾", "辛棄疾"]
-    },
-    {
         text: "欲窮千里目，更上一層樓。",
         author: "王之渙",
         fakeAuthors: ["李白", "杜甫"]
@@ -463,11 +468,6 @@ const quotes = [
         text: "勿以惡小而為之，勿以善小而不為。",
         author: "羅貫中",
         fakeAuthors: ["馮夢龍", "吳承恩"]
-    },
-    {
-        text: "讀書破萬卷，下筆如有神。",
-        author: "杜甫",
-        fakeAuthors: ["李白", "蘇軾"]
     },
     {
         text: "是非成敗轉頭空，青山依舊在，幾度夕陽紅。",
@@ -566,8 +566,8 @@ const quotes = [
     },
   {
     text: "知恥近乎勇。",
-    author: "中庸",
-    fakeAuthors: ["論語", "大學"],
+    author: "《中庸》",
+    fakeAuthors: ["《論語》", "《大學》"],
   },
   {
     text: "鍥而捨之，朽木不折；鍥而不捨，金石可鏤。",
@@ -635,11 +635,6 @@ const quotes = [
         fakeAuthors: ["李白", "白居易"]
     },
     {
-        text: "位卑未敢忘憂國。",
-        author: "陸游",
-        fakeAuthors: ["范仲淹", "辛棄疾"]
-    },
-    {
         text: "博觀而約取，厚積而薄發。",
         author: "蘇軾",
         fakeAuthors: ["歐陽修", "王安石"]
@@ -700,11 +695,6 @@ const quotes = [
         fakeAuthors: ["辛棄疾", "范仲淹"]
     },
     {
-        text: "寧為玉碎，不為瓦全。",
-        author: "李白",
-        fakeAuthors: ["杜甫", "蘇軾"]
-    },
-    {
         text: "不積跬步，無以至千里；不積小流，無以成江海。",
         author: "荀子",
         fakeAuthors: ["韓非子", "孟子"]
@@ -713,11 +703,6 @@ const quotes = [
         text: "生當作人傑，死亦為鬼雄。",
         author: "李清照",
         fakeAuthors: ["杜甫", "王維"]
-    },
-    {
-        text: "先天下之憂而憂，後天下之樂而樂。",
-        author: "范仲淹",
-        fakeAuthors: ["歐陽修", "王安石"]
     },
     {
         text: "千軍易得，一將難求。",
@@ -740,19 +725,9 @@ const quotes = [
         fakeAuthors: ["胡適", "李大釗"]
     },
     {
-        text: "三軍可奪帥也，匹夫不可奪志也。",
-        author: "孔子",
-        fakeAuthors: ["孟子", "韓非子"]
-    },
-    {
         text: "言之無文，行而不遠。",
         author: "孔子",
         fakeAuthors: ["孟子", "莊子"]
-    },
-    {
-        text: "不經一番寒徹骨，怎得梅花撲鼻香。",
-        author: "黃蘗禪師",
-        fakeAuthors: ["王安石", "杜牧"]
     },
     {
         text: "生如夏花之絢爛，死如秋葉之靜美。",
@@ -763,16 +738,6 @@ const quotes = [
         text: "紙上得來終覺淺，絕知此事要躬行。",
         author: "陸游",
         fakeAuthors: ["杜甫", "蘇軾"]
-    },
-    {
-        text: "千里之行，始於足下。",
-        author: "老子",
-        fakeAuthors: ["孔子", "墨子"]
-    },
-    {
-        text: "知恥近乎勇。",
-        author: "中庸",
-        fakeAuthors: ["論語", "大學"]
     },
     {
         text: "不經一番寒徹骨，怎得梅花撲鼻香。",
@@ -870,16 +835,6 @@ const quotes = [
         fakeAuthors: ["司馬光", "范仲淹"]
     },
     {
-        text: "人生如逆旅，我亦是行人。",
-        author: "蘇軾",
-        fakeAuthors: ["李白", "杜甫"]
-    },
-    {
-        text: "書山有路勤為徑，學海無涯苦作舟。",
-        author: "韓愈",
-        fakeAuthors: ["朱熹", "范仲淹"]
-    },
-    {
         text: "黑髮不知勤學早，白首方悔讀書遲。",
         author: "顏真卿",
         fakeAuthors: ["柳宗元", "杜甫"]
@@ -895,13 +850,33 @@ const quotes = [
         fakeAuthors: ["《禮記》", "《尚書》"]
     },
     {
+        text: "人間寒食，洞裡花開。游蜂與蝴蝶爭飛，鷺子共黃鸝對語。",
+        author: "佛印",
+        fakeAuthors: ["周敦頤", "蘇軾"]
+    },
+    {
         text: "志當存高遠。",
         author: "諸葛亮",
         fakeAuthors: ["司馬遷", "范仲淹"]
     },
     {
+        text: "予獨愛蓮之出淤泥而不染，濯清漣而不妖。",
+        author: "周敦頤",
+        fakeAuthors: ["朱熹", "司馬光"]
+    },
+    {
+        text: "格物、致知、誠意、正心、修身、齊家、治國、平天下。",
+        author: "朱熹",
+        fakeAuthors: ["薛瑄", "程顥"]
+    },
+    {
+        text: "慎終，追遠，民德歸厚。",
+        author: "曾子",
+        fakeAuthors: ["韓非子", "老子"]
+    },
+    {
         text: "生亦何歡，死亦何苦。",
-        author: "李白",
-        fakeAuthors: ["杜甫", "王之渙"]
+        author: "金庸",
+        fakeAuthors: ["曹雪芹", "白先勇"]
     }
 ];
